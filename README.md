@@ -16,7 +16,7 @@ identify license plate numbers from moving vehicles.
 ## Installation
 1. Clone the repository: git clone https://github.com/username/repository.git
 
-2. Install the required dependencies: pip install -r requirements.txt
+2. Install the required dependencies
 
 3. Download the YOLOv8n model weights and place them in the specified directories.
 
