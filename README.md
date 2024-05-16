@@ -32,6 +32,6 @@ To interpolate missing data in the results CSV file, run the add_missing.py .
 To visualize the results and generate an annotated video, run the visualize.py .
 
 ## Result
-![image](https://github.com/GilShtein/License-Plate-Detection-and-Recognition-System/assets/110115156/ccd3225f-7b93-4c32-9025-178a3014afff)
+![Alt text]![image](https://github.com/GilShtein/License-Plate-Detection-and-Recognition-System/assets/110115156/ccd3225f-7b93-4c32-9025-178a3014afff)
 
 
