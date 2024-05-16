@@ -13,10 +13,10 @@ mot_tracker = sort.Sort()
 
 # load models
 coco_model = YOLO('yolov8n.pt')
-license_plate_detector = YOLO(r"C:\Users\Dell\PycharmProjects\LicensePT\license1\license\runs\detect\train\weights\best.pt")
+license_plate_detector = YOLO(r"\runs\detect\train\weights\best.pt")
 
 # load video
-cap = cv2.VideoCapture(r"C:\Users\Dell\PycharmProjects\LicensePT\license1\license\test\cars.mp4")
+cap = cv2.VideoCapture("cars.mp4")
 
 vehicles = [2, 3, 5, 7]
 
@@ -69,4 +69,4 @@ while ret:
                                                                     'text_score': license_plate_text_score}}
 
 # write results
-write_csv(results, r"C:\Users\Dell\PycharmProjects\LicensePT\result.csv")
+write_csv(results, "result.csv")
