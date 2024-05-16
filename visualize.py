@@ -34,7 +34,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Specify the codec
 fps = cap.get(cv2.CAP_PROP_FPS)
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
-out = cv2.VideoWriter(r"C:\Users\Dell\PycharmProjects\LicensePT\out.mp4", fourcc, fps, (width, height))
+out = cv2.VideoWriter("out.mp4", fourcc, fps, (width, height))
 
 license_plate = {}
 for car_id in np.unique(results['car_id']):
