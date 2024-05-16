@@ -1,4 +1,3 @@
-#from sympy.polys.polyoptions import Sort
 from ultralytics import YOLO
 import cv2
 
