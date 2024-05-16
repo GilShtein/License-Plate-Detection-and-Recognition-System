@@ -26,7 +26,9 @@ identify license plate numbers from moving vehicles.
 
 ## Usage
 Run the main.py script to process the input video and generate the output. The results will be saved in a CSV file, which can be further processed or analyzed.
-To interpolate missing data in the results CSV file, run the add_missing.py 
-To visualize the results and generate an annotated video, run the visualize.py
+
+To interpolate missing data in the results CSV file, run the add_missing.py .
+
+To visualize the results and generate an annotated video, run the visualize.py .
 
 
