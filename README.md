@@ -1,6 +1,9 @@
 # License-Plate-Detection-and-Recognition-System
 This project is a Python-based system for detecting and recognizing license plates in a video stream.
-It utilizes object detection and tracking techniques along with optical character recognition (OCR) to identify license plate numbers from moving vehicles.
+
+It utilizes object detection and tracking techniques along with optical character recognition (OCR) to
+
+identify license plate numbers from moving vehicles.
 ## Features
 - __Vehicle Detection__: Utilizes YOLO (You Only Look Once) object detection to identify vehicles in a video stream.
 - __Vehicle Tracking__: Employs the SORT (Simple Online and Realtime Tracking) algorithm to track vehicles across consecutive frames.
