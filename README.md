@@ -23,3 +23,10 @@ identify license plate numbers from moving vehicles.
 4. Ensure that the path to the input video is correctly specified in the main.py file.
 
 5. Use a 'file.mp4' of your own to run the program (this program is built to indentify the british licence plate format "{char}{char}{int}{int} {char}{char}{char}" 
+
+## Usage
+Run the main.py script to process the input video and generate the output. The results will be saved in a CSV file, which can be further processed or analyzed.
+To interpolate missing data in the results CSV file, run the add_missing.py 
+To visualize the results and generate an annotated video, run the visualize.py
+
+
