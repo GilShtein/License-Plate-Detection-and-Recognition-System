@@ -14,13 +14,9 @@ identify license plate numbers from moving vehicles.
 - __Visualization__: Generates a video output with annotated bounding boxes and recognized license plate numbers.
 
 ## Installation
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/username/repository.git
 
-git clone https://github.com/username/repository.git
-
-2. Install the required dependencies:
-
-pip install -r requirements.txt
+2. Install the required dependencies: pip install -r requirements.txt
 
 3. Download the YOLOv8n model weights and place them in the specified directories.
 
