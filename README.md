@@ -12,3 +12,18 @@ identify license plate numbers from moving vehicles.
 - __License Plate Format Validation__: Validates the format of recognized license plate numbers.
 - __Interpolation of Missing Data__: Interpolates missing bounding box data for vehicles and license plates.
 - __Visualization__: Generates a video output with annotated bounding boxes and recognized license plate numbers.
+
+## Installation
+1. Clone the repository:
+
+git clone https://github.com/username/repository.git
+
+2. Install the required dependencies:
+
+pip install -r requirements.txt
+
+3. Download the YOLOv8n model weights and place them in the specified directories.
+
+4. Ensure that the path to the input video is correctly specified in the main.py file.
+
+5. Use a 'file.mp4' of your own to run the program (this program is built to indentify the british licence plate format "{char}{char}{int}{int} {char}{char}{char}" 
